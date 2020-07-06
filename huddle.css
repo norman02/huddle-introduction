@@ -1,0 +1,64 @@
+:root {
+    --Violet: hsl(257, 40%, 49%)
+}
+
+*{ /* reset css */ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+
+body {
+    max-width: 1400px;
+    min-width: 350px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--Violet);
+    background-image: url('./images/bg-desktop.svg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+h2,
+p {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+#logo {
+    width: 20rem;
+}
+
+.content-container {
+    padding: 3rem;
+}
+
+#mockup {
+    width: 60rem;
+}
+
+.main {
+    display: flex;
+}
+
+.social {
+    width: 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color:paleturquoise; }
