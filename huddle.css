@@ -44,6 +44,10 @@ p {
     width: 20rem;
 }
 
+.main {
+    align-items: center;
+}
+
 .content-container {
     padding: 3rem;
 }
@@ -56,9 +60,21 @@ p {
     display: flex;
 }
 
-.social {
-    width: 10px;
+#contact {
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.social {
+    width: 4rem;
+    margin: 0.5rem;
+}
+
+.attribution { 
+    position: fixed;
+    bottom: 2rem;
+    font-size: 11px; 
+    text-align: center; 
+}
 .attribution a { color:paleturquoise; }
