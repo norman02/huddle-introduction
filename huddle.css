@@ -32,6 +32,7 @@ h2 {
 h1 {
     font-weight: 700;
     font-size: 3rem;
+    margin-bottom: 3rem;
 }
 
 h2,
@@ -59,9 +60,20 @@ p {
 .main {
     display: flex;
 }
+.button {
+    display: flex;
+    background-color: white;
+    color: var(--Violet);
+    width: 20rem;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 3rem;
+}
 
 #contact {
-    position: fixed;
+    position: absolute;
     right: 5rem;
     bottom: 5rem;
 }
