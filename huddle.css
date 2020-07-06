@@ -70,6 +70,7 @@ p {
     align-items: center;
     border-radius: 50px;
     margin-top: 3rem;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.25);
 }
 
 footer {
