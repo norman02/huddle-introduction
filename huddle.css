@@ -54,7 +54,11 @@ p {
 }
 
 #mockup {
-    width: 60rem;
+    width: 100%;
+}
+
+#mission {
+    width: 40%;
 }
 
 .main {
